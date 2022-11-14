@@ -62,3 +62,19 @@ console.log(result);
 result = findDifferenceMaxAndMin([101.25, 78, 97, 1.123, 1859, 468, 322, 697.77, 5999.9]);
 
 console.log(result);
+
+
+//OPTIONAL SOLUTION
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12];
+
+// function findDiffMaxMin(array){
+//     let min = array.reduce((accumulator, current)=> {
+//          return (accumulator<current ? accumulator:current);
+//      });
+//     let max = array.reduce((accumulator, current)=>{
+//         return (accumulator>current ? accumulator:current);
+//     });
+//     return max -min;          
+     
+//  }
+//  console.log(findDiffMaxMin(arr));

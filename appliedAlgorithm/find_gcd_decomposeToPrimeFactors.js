@@ -44,10 +44,8 @@ let findGcd = (number1, number2) => {
             divisors = i;
         }
     }
-
     return divisors
 };
-
 
 const isPrimeFunc = (input) => {
     let isPrime = true;
@@ -87,17 +85,13 @@ let findGcdAndDecomposeToPrimeFactors = (number1, number2) => {
     };
 
 };
-
-
-
 let result = findGcdAndDecomposeToPrimeFactors(14, 28);
-
 console.log(result);
 
-result = findGcdAndDecomposeToPrimeFactors(35, 15);
+// result = findGcdAndDecomposeToPrimeFactors(35, 15);
 
-console.log(result);
+// console.log(result);
 
-result = findGcdAndDecomposeToPrimeFactors(100, 180);
+// result = findGcdAndDecomposeToPrimeFactors(100, 180);
 
-console.log(result);
+// console.log(result);
