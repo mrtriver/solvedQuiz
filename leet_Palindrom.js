@@ -10,14 +10,14 @@
 // console.log(isPalindrome(191));
 
 var isPalindrome = function(x) { 
-    let numGiven =x;
+    const numGiven =x;
 let rev = 0;
 while(x !== 0){
     let n = x % 10;
     rev = rev * 10 + n;
     x = Math.floor(x / 10);
 }
-return rev == numGiven;
+return rev === numGiven;
 }
 
-console.log(isPalindrome(0));
+console.log(isPalindrome(123));
